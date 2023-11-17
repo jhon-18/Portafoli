@@ -1,0 +1,102 @@
+/*ASPECTOS GENERALES*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root{
+    --principal-color: #ffffff;
+    --secundario-color: #77bd9a;
+    --terciario-color: #1d8b61;
+    --texto-color: #008156;
+    --titulo-size: 64px;
+    --subtitulo-size: 40px;
+    --parrafo-size: 32px;
+}
+
+
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
+/*INICIO*/
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background:url("../IMAGE/Captura.PNG");
+    background-size: cover;
+    /*
+    background: linear-gradient(to right,#000000,#3cbfa8) ;*/
+}
+
+.bg-porta{
+    background:#242323;
+    
+}
+
+.bg-porta .nav-link,
+.bg-porta .navbar-brand{
+    padding: 0 1%;
+    background: linear-gradient(to right, #107142, #aba4a4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+/*header #hero{
+    text-align: center;
+    padding: 0% 0;
+}*/
+
+.hero h2{
+    font-size: 64px;
+}
+
+.hero h3{
+    font-size: 40px;
+}
+
+.hero .left{
+    padding-top: 15%;
+}
+
+.hero .centro{
+    padding-top: 10%;
+}
+.hero .right{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.hero .right img{
+    margin: 1rem 0;
+}
+
+.degradado {
+    background: linear-gradient(to right, #107142, #ffffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+ 
+}
+
+.sobremi{
+    font-size: 23px;
+    margin: -218px -608px -283px 730px ;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+}
+
+.sobremi a{
+    background: linear-gradient(to right, #107142, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+
+.barra a{
+    margin-left: 30px;
+}
